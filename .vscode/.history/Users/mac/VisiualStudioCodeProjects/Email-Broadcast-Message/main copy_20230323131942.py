@@ -8,6 +8,7 @@ try:
 except Exception as e:
     print(e)
 
+
 contact_dict = {}
 for (index, row) in contact.iterrows():
     name = str(row["First Names"]).title()
@@ -16,8 +17,8 @@ for (index, row) in contact.iterrows():
         contact_dict[name] = email
 
 # login to the email server
-my_email = ""
-password = ""
+my_email = "ezekieloluwadamy@gmail.com"
+password = "uwrjgsfjuwcxgusy"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
@@ -29,7 +30,7 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
             my_message = message.read()
             my_message = my_message.replace("[NAME]", name)
             my_message = my_message.replace("[IMAGE_SRC]", "Pastor.png")
-            my_message = my_message.replace("[EMAIL_LINK]", "")
+            my_message = my_message.replace("[EMAIL_LINK]", "<a href='mailto:daphnesoyinka7@gmail.com'>daphnesoyinka7@gmail.com</a>")
             my_message = my_message.replace("[PHONE_NUMBER]", "09025637257")
 
         try:
