@@ -3,7 +3,7 @@ import smtplib
 
 # read csv file and create a dictionary ihiihihihy Seyi's part
 try:
-    data = pd.read_csv("Raaaaaa.csv")
+    data = pd.read_csv("RCF EXCOS.csv")
     contact = pd.DataFrame(data, columns=["Emails", "First Names"])
 except Exception as e:
     print(e)
