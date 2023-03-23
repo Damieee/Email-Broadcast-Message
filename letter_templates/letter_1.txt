@@ -1,0 +1,35 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #153f66; /* change to your desired background color */
+    }
+    
+    h2 {
+        color: #cc0000; /* change to your desired heading color */
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+</style>
+
+<html>
+
+<body>
+<h2>Hi Pastor [NAME],</h2>
+
+<p>I hope this message finds you well. I wanted to reach out and let you know that the President is aware of how demanding your work can be and appreciates your dedication to your calling.</p>
+
+<p>I also wanted to remind you that even though the work can be stressful, please do not hesitate to reach out to her on [EMAIL_LINK] or call her on [PHONE_NUMBER] if you have any challenges. She would be more than happy to offer support and guidance where needed.</p>
+
+<p>Lastly, I want to extend to you all her love and encouragement. Keep up the great work that you're doing, and don't forget to take care of yourselves as well.</p>
+
+<p>Damieee!</p>
+
+</body>
+<html>
