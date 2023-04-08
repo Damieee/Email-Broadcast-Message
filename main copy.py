@@ -18,7 +18,7 @@ for (index, row) in contact.iterrows():
 
 # login to the email server
 my_email = "ezekieloluwadamy@gmail.com"
-password = "uwrjgsfjuwcxgusy"
+password = "SECRET KEY"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
